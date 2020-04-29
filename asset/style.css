@@ -1,0 +1,100 @@
+		
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			background: #efefef;
+			font-size: 26px;
+			font-family: 'Shadows Into Light', cursive;
+		}
+		.body-header{
+			display: block;
+			margin: 2% auto;
+			text-align: center;
+			letter-spacing: 3px;
+			font-style: italic;
+		}
+		.my-container{
+			max-width: 600px;
+			margin: 1% auto;
+			background: #fff;
+			-webkit-box-shadow: 4px 6px 10px -3px rgba(0,0,0,0.75);
+			-moz-box-shadow: 4px 6px 10px -3px rgba(0,0,0,0.75);
+			box-shadow: 4px 6px 10px -3px rgba(0,0,0,0.75);
+		}
+		.to-do-input>input{
+			width: 100%;
+			height: 50px;
+			font-size: 32px;
+			letter-spacing: 1px;
+			padding: 0 3%;
+			font-family: 'Shadows Into Light', cursive;
+			background: #b6abd1;
+			
+		}
+		.to-do-input>input::-webkit-input-placeholder {
+    			direction: rtl;
+    			text-align: center;
+				}
+		.to-do-input>input:focus{
+			outline: none !important;	
+			background: #dcbeed;
+			border: none;
+		}
+		.to-do-lists{
+			margin: 3px 3%;
+		}
+		.single-todo{
+			height: 45px;
+		}
+		.single-todo>input{
+			margin-right: 5px;
+			height: 20px;
+			cursor: pointer;
+		}
+		.single-todo>span{
+			float: right;
+			cursor: pointer;
+		}
+		/*.single-todo>button{
+			float: right;
+			cursor: pointer;
+			border: none;
+		}*/
+		.to-do-bottom{
+			display: flex;
+			justify-content: space-between;
+			padding: 1px 3%;
+			height: 48px;
+		}
+		hr{
+			margin: 0 2%;
+		}
+		.to-do-bottom-l>input{
+			cursor: pointer;
+		}
+		.to-do-bottom-l>label{
+			font-size: 18px;
+		}
+
+		button {
+        font-size: 14px;
+        background-color: white;
+        appearance: none;
+	    }
+	    button:hover{
+	        background: lightgreen;
+	        }
+	    }
+	    button:focus {
+	        outline: none;
+	        }
+	    .active {
+	        background: lightgreen;
+	    }
+	    .to-do-bottom-l>label{
+	    	font-family: "Times New Roman", Times, serif;
+	    	font-size: 16px;
+	    }
